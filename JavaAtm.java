@@ -25,16 +25,11 @@ class JavaAtm{
         
         try{
             System.out.println("======Welcome to DP bank Atm======");
-            Thread.sleep(3000);
             System.out.println("***********************************");
-            Thread.sleep(3000);
             System.out.println("Please Enter Your card :");
-            Thread.sleep(3000);
             System.out.println("***********************************");
-            Thread.sleep(3000);
             int pin=123;
             System.out.print("Enter your pin :");
-            Thread.sleep(1000);
             int psw=sc.nextInt();
             if(psw==pin){
                 while(true){
@@ -58,11 +53,11 @@ class JavaAtm{
                     }
                     else{
                         System.out.println("***********************************");
-                        Thread.sleep(2000);
+                        Thread.sleep(100);
                         System.out.println("Please Select Right Option");
-                        Thread.sleep(2000);
+                        Thread.sleep(100);
                         System.out.println("***********************************");
-                        Thread.sleep(2000);
+                        Thread.sleep(100);
                         System.out.println(" Please Try Again !!!!!!\n");
                         break;
                     }
